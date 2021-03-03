@@ -14,3 +14,6 @@ Planets and Planet Textures from Google and NASA, Flaticons
 And Thanks for @pokepetter he made the Ursina Engine!
 
 !! If there is anything wrong with the Textures or Sounds or you are the Owner of one of those Textures/Sounds contact me and i will imediatley take them Down! !!
+
+Updates:
+Added Splashscreen for Crediting Ursina a bit more (:
