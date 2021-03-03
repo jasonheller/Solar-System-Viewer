@@ -1,9 +1,11 @@
 from ursina import * 
 
 root = Ursina()
-window.fps_counter.enabled = False
+window.fps_counter.enabled = True
 window.exit_button.visible = False
 window.borderless = False
+window.show_ursina_splash = True
+window.fullscreen = False
 
 start_var = 2
 ec = EditorCamera(rotation_smoothing=2, enabled=True, rotation=(0,0,0), scale=2)
