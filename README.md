@@ -2,6 +2,8 @@
 Lets you view SOME planets of our Solar System!
 
 How to use:
+Install the Ursina Engine for it to work. you can do it with this command: pip install git+https://github.com/pokepetter/ursina.git 
+Then just run the Main.py as normal.
 Run the Main py alongside with the assets folder in the same directory
 
 CREDITS:
