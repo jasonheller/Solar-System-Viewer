@@ -14,7 +14,7 @@ uranus = load_texture('assets/uranus.jpg')
 moon = load_texture('assets/moon.png')
 sun = load_texture('assets/sun.png')
 
-def DeleteEntities():
+def deleteEntities():
     moon.visible = False
     uranus.visible = False
     neptune.visible = False
@@ -38,8 +38,8 @@ def DeleteEntities():
     earth2.visible = False
     sun2.visible = False
 
-def ChangeToSolarView():
-    DeleteEntities()
+def changeToSolarView():
+    deleteEntities()
     earth_button.visible = False
     mars_button.visible = False
     mercury_button.visible = False
@@ -52,7 +52,7 @@ def ChangeToSolarView():
     moon_button.visible = False
     sun_button.visible = False
 
-DeleteEntities()
+deleteEntities()
 
 
 class Sun(Entity):
@@ -75,7 +75,7 @@ class Sun_Button(Button):
             position=(-0.65,-0.13,0)
         )
     def on_click(self):
-        DeleteEntities()
+        deleteEntities()
         sun.visible = True
 
 # MOON
@@ -99,7 +99,7 @@ class Moon_Button(Button):
             position=(-0.65,0.00625,0)
         )
     def on_click(self):
-        DeleteEntities()
+        deleteEntities()
         moon.visible = True
 
 # URANUS
@@ -123,7 +123,7 @@ class Uranus_Button(Button):
             position=(-0.65,-0.265,0)
         )
     def on_click(self):
-        DeleteEntities()
+        deleteEntities()
         uranus.visible = True
 
 # NEPTUNE
@@ -147,7 +147,7 @@ class Neptune_Button(Button):
             position=(-0.65,-0.40,0)
         )
     def on_click(self):
-        DeleteEntities()
+        deleteEntities()
         neptune.visible = True
 
 # SATURN
@@ -171,7 +171,7 @@ class Saturn_Button(Button):
             position=(-0.8,-0.40,0)
         )
     def on_click(self):
-        DeleteEntities()
+        deleteEntities()
         saturn.visible = True
 
 # JUPITER
@@ -195,7 +195,7 @@ class Jupiter_Button(Button):
             position=(-0.8,-0.265,0)
         )
     def on_click(self):
-        DeleteEntities()
+        deleteEntities()
         jupiter.visible = True
 
 # CERES
@@ -219,7 +219,7 @@ class Ceres_Button(Button):
             position=(-0.8,0.00625,0)
         )
     def on_click(self):
-        DeleteEntities()
+        deleteEntities()
         ceres.visible = True
 
 # VENUS
@@ -243,7 +243,7 @@ class Venus_Button(Button):
             position=(-0.8,-0.13,0)
         )
     def on_click(self):
-        DeleteEntities()
+        deleteEntities()
         venus.visible = True
 
 # MERCURY
@@ -267,7 +267,7 @@ class Mercury_Button(Button):
             position=(-0.8,0.14,0)
         )
     def on_click(self):
-        DeleteEntities()
+        deleteEntities()
         mercury.visible = True
 
 # MARS
@@ -291,7 +291,7 @@ class Mars_Button(Button):
             position=(-0.8,0.27,0)
         )
     def on_click(self):
-        DeleteEntities()
+        deleteEntities()
         mars.visible = True
 
 # EARTH
@@ -305,7 +305,7 @@ class Earth_Button(Button):
             position=(-0.8,0.4,0)    
         )
     def on_click(self):
-        DeleteEntities()
+        deleteEntities()
         earth.visible = True
         
 class Earth(Entity):

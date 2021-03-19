@@ -22,7 +22,7 @@ class SolarViewExit(Button):
             position=(0.8,-0.38,0)
         )
     def on_click(self):
-        DeleteEntities()
+        deleteEntities()
         sve.visible = False
         moon.visible = True
         uranus.visible = True
@@ -56,8 +56,8 @@ class SolarView(Button):
             position=(0.8,-0.26,0)
         )
     def on_click(self):
-        DeleteEntities()
-        ChangeToSolarView()
+        deleteEntities()
+        changeToSolarView()
         sve.visible = True
         pluto2.visible = True
         uranus2.visible = True
