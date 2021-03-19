@@ -6,6 +6,10 @@ Install the Ursina Engine for it to work. you can do it with this command: pip i
 Then just run the Main.py as normal.
 Run the Main.py, solar_animation.py and the planets.py alongside with the assets folder in the same directory
 
+WINDOWS:
+https://anonfiles.com/c1D1q5l5ub/main_zip
+Download the File, Unpack it, open the Folder and open main.exe
+
 CREDITS:
 https://github.com/mk-codingspace - For the Solar Animation you can see if you press the Button in the Down Right (:
 
