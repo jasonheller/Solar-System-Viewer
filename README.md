@@ -24,6 +24,7 @@ Updates:
 - Added new Buttons (For the Solar System and for the new Planet)
 - Compiled an .exe for Windows.
 
+- Changed Function Names so that they wont conflict later on.
 - Changed the Scale to achieve a little bit more realism
 - Changed the Button Size, Scale, Position and Model
 - Completley reviewed the Code and made it a bit more Edit Friendly.
