@@ -7,6 +7,7 @@ Then just run the Main.py as normal.
 Run the Main.py, solar_animation.py and the planets.py alongside with the assets folder in the same directory
 
 WINDOWS:
+(MAY INCLUDE ADS, IF YOU GET REDIRECTED TO A AD WEBSITE CLOSE IT AND DOWNLOAD AGAIN!)
 https://anonfiles.com/c1D1q5l5ub/main_zip
 Download the File, Unpack it, open the Folder and open main.exe
 
