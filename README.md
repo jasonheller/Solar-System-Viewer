@@ -19,7 +19,12 @@ And Thanks for @pokepetter he made the Ursina Engine!
 
 !! If there is anything wrong with the Textures or Sounds or you are the Owner of one of those Textures/Sounds contact me and i will imediatley take them Down! !!
 
+After a long time i looked back at the code. Now we have some new Features:
+The .exe is still not updated to the latest version
+
 Updates:
+- Added Space Background (W.I.P)
+- Changed .visible to .enabled in the Code
 - Added Splashscreen for Crediting Ursina a bit more (:
 - Added a new Celestial Body - The Sun
 - Added new Buttons (For the Solar System and for the new Planet)
